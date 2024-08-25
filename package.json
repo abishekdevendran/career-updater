@@ -10,7 +10,12 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240821.1",
+    "@types/diff": "^5.2.1",
     "typescript": "^5.5.2",
     "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "diff": "6.0.0-beta",
+    "node-html-markdown": "^1.3.0"
   }
 }
